@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "changa_one_regular";
+  src: url("../fonts/ChangaOne/changaone-regular-webfont.woff2") format("woff2"),
+    url("../fonts/ChangaOne/ChangaOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "butler_medium";
+  src: url("../fonts/Butler_Webfont/Butler-Bold.woff2") format("woff2"),
+    url("../fonts/Butler_Webfont/Butler-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "handlee";
+  src: url("../fonts/handlee/handlee-regular-webfont.woff2") format("woff2"),
+    url("../fonts/handlee/handlee-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pettingill_cfbold";
+  src: url("../fonts/PettingillCF-Bold/pettingillcf-bold.woff2") format("woff2"),
+    url("../fonts/PettingillCF-Bold/pettingillcf-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: butler_medium, Arial, pettingill_cfbold;
+}
+
+main {
+  width: 100%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.dropDown {
+  font-family: "handlee";
+  background-color: #e4dfcb right;
+  background-repeat: no-repeat;
+  background-image: url(../images/dropdown-icon-1.jpg);
+  background-size: 5%;
+  background-position: 96% 50%;
+  color: grey;
+}
+
+#doggoDropDown {
+  cursor: pointer;
+  width: 666px;
+  font-size: 22px;
+  -webkit-appearance: none;
+  appearance: none;
+  user-select: none;
+  border: 2px solid #1c6ea4;
+  border-radius: 5px;
+  color: rgb(56, 56, 192);
+  padding: 0.3em;
+  padding-left: 0.6em;
+}
+
+#doggoDropDown:focus {
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 2px rgba(21, 156, 228, 0.4);
+}
+
+#listImageContainer {
+  width: 100%;
+  min-height: 300px;
+}
+
+#listImageContainer {
+  display: flex;
+  width: 100%;
+  padding: 1.2em 1.9em;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#listImageContainer img {
+  width: 666px;
+  height: 416px;
+  margin: 0;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #7faee4, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(13, 19, 44, 0);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(13, 22, 63, 0);
+}
+
+.frame {
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
